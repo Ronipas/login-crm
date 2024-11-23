@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/remixicon.css">
+    <title>Sign in or Sign Up </title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="signin-signup">
+
+            <!-- Form Login -->
+
+            <form action="" class="sign-in-form">
+                <h2 class="title">Sign in</h2>
+                <div class="input-field">
+                    <i class=" ri-user-3-fill"></i>
+                    <input type="text" placeholder="Username">
+                    
+                </div>
+                <div class="input-field">
+                    <i class="ri-lock-fill"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="Login" class="btn">
+                <p class="social-text"> Or Sign in with Social Media account</p>
+                <div class="social-media">
+                    <a href="" class="social-icon">
+                        <i class="ri-mail-fill"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="ri-whatsapp-fill"></i>
+                    </a>
+                    
+                </div>
+                <p class="account-text">Don't have an account? <a href="#" id="signup-btn2"> Sign up</a> </p>
+            </form>
+
+            <!-- Form Daftar -->
+
+            <form action="" class="sign-up-form">
+                <h2 class="title">Sign Up</h2>
+                <div class="input-field">
+                    <i class=" ri-user-3-fill"></i>
+                    <input type="text" placeholder="Username">
+                    
+                </div>
+                <div class="input-field">
+                    <i class=" ri-mail-fill"></i>
+                    <input type="email" placeholder="Email">
+                    
+                </div>
+                <div class="input-field">
+                    <i class="ri-lock-fill"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="input-field">
+                    <i class="ri-lock-fill"></i>
+                    <input type="password" placeholder="Confirm Password">
+                </div>
+                <input type="submit" value="Sign Up" class="btn">
+                
+                
+                <p class="account-text">Already have an account? <a href="#" id="signin-btn2"> Sign in</a> </p>
+            </form>
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Member of Brand</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis nemo maiores quos? Possimus, repudiandae.</p>
+                    <button class="btn" id="signin-btn">Sign in</button>
+                </div>
+                <img src="/svg/signin.svg" alt="" class="image">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Member of Brand</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis nemo maiores quos? Possimus, repudiandae.</p>
+                    <button class="btn" id="signup-btn">Sign up</button>
+                </div>
+                <img src="/svg/signup.svg" alt="" class="image">
+            </div>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
